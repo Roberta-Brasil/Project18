@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @bike.size %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @bike.gender %>
+</p>
+
+<p>
+  <strong>Colour:</strong>
+  <%= @bike.colour %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @bike.type %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @bike.price %>
+</p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @bike.brand %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @bike.image_url %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @bike.location %>
+</p>
+
+<p>
+  <strong>Availability:</strong>
+  <%= @bike.availability %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @bike.model %>
+</p>
+
+<%= link_to 'Edit', edit_bike_path(@bike) %> |
+<%= link_to 'Back', bikes_path %>
